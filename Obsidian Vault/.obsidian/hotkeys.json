@@ -1,0 +1,22 @@
+{
+  "editor:toggle-bold": [],
+  "editor:toggle-italics": [],
+  "command-palette:open": [],
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-comments": [],
+  "app:go-back": [],
+  "switcher:open": [],
+  "markdown:add-metadata-property": [],
+  "graph:open": [],
+  "editor:insert-link": [],
+  "workspace:close-window": [],
+  "workspace:close": [],
+  "workspace:new-tab": [],
+  "app:open-settings": [],
+  "app:open-help": [],
+  "editor:open-link-in-new-leaf": [],
+  "editor:open-link-in-new-window": [],
+  "editor:open-link-in-new-split": [],
+  "workspace:undo-close-pane": [],
+  "app:go-forward": []
+}
