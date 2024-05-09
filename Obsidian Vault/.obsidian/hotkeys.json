@@ -4,7 +4,14 @@
   "command-palette:open": [],
   "editor:toggle-checklist-status": [],
   "editor:toggle-comments": [],
-  "app:go-back": [],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
   "switcher:open": [],
   "markdown:add-metadata-property": [],
   "graph:open": [],

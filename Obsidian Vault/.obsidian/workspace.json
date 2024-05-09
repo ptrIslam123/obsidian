@@ -8,12 +8,204 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e32156e1ee65aa0",
+            "id": "dbb3ba1987fdb406",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Tensorflow/Простейшая модель линейной регресии на Tensorflow.md",
+                "file": "Математика/статистика/Линейная регрессия.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a165b3a7aa13b452",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Финансовый анализ компании.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e469284b50280b71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "684e9744e2334720",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "337726e806a54aee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "592e5b5a2495e349",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3462bbb279061fc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd71060945f53816",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec404c61f890f12a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee6ac7669d9d7695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4344f31688fcc73c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b98c527dab16dd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7840fa8ac2755521",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Финансовый анализ компании.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b19d433fae02281a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Финансовый анализ компании.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b701c4ee3a87c5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Финансовый анализ компании.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4138dc168d064c8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "фнансы/Микро экономика/Отчетность(МСФО)/Отчета о прибылях и убытках.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2f05ac3406b1f2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Математика/статистика/Средняя абсолютная ошибка (MAE).md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +217,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Tensorflow/Простейшая модель линейной регресии на Tensorflow.md",
+                "file": "ML/Основны машинного обучения.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab70821080fd58d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Математика/статистика/Коэффициент детерминации ( R^2 ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fae468ee752d9cc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Tensorflow/линейная регрессия на python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ec7339c5c30d126",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Основны машинного обучения.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d30ee47f70a3e8a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Обучение с учителем.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7c3b8c49f28a09a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Математика/статистика/Логистическая регрессия.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +289,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Математика/статистика/Линйная регрессия.md",
+                "file": "ML/Обучение с учителем.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e2a311a9550fc07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Математика/Деревья решений.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -89,12 +353,24 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "7e32156e1ee65aa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Основны машинного обучения.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 520.5
   },
   "right": {
     "id": "8dfb114b970e1b3c",
@@ -110,7 +386,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Математика/статистика/Линйная регрессия.md",
+                "file": "фнансы/Микро экономика/Отчетность(МСФО)/Отчета о прибылях и убытках.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +403,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Математика/статистика/Линйная регрессия.md",
+                "file": "фнансы/Микро экономика/Отчетность(МСФО)/Отчета о прибылях и убытках.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +426,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Математика/статистика/Линйная регрессия.md"
+                "file": "фнансы/Микро экономика/Отчетность(МСФО)/Отчета о прибылях и убытках.md"
               }
             }
           }
@@ -171,30 +447,50 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "8e494d9e9e3bf6e7",
+  "active": "4138dc168d064c8e",
   "lastOpenFiles": [
-    "ML/Tensorflow/Простейшая модель линейной регресии на Tensorflow.md",
-    "Математика/статистика/Линйная регрессия.md",
-    "ML/Tensorflow/Tensorflow Hello world.md",
-    "ML/Tensorflow/Tensorflow Sequential.md",
-    "ML/Tensorflow/Tensorflow Dense.md",
-    "ML/Tensorflow/Без названия.md",
+    "фнансы/Микро экономика/Мультипликаторы/ROE (Return on Equity).md",
+    "фнансы/Микро экономика/Отчетность(МСФО)/Отчета о прибылях и убытках.md",
+    "фнансы/Микро экономика/Отчетность(МСФО)/Отчета о движении денежных средств (ОДДС).md",
+    "фнансы/Микро экономика/Отчетность(МСФО)/Бухгалтерский Баланс.md",
+    "Математика/статистика/Коэффициент детерминации ( R^2 ).md",
+    "Математика/статистика/Дисперсия.md",
+    "Математика/статистика/Графики остатков.md",
+    "фнансы/Микро экономика/Мультипликаторы/Финансовые мультиплиикаторы.md",
+    "ML/pictures/линейная_регрессия.png",
+    "ML/pictures/one_dim_lin_reg.png",
+    "фнансы/Микро экономика/Финансовый анализ компании.md",
+    "фнансы/Микро экономика/Фундаментальный анализ.md",
+    "Фундаментальный анализ компании.md",
     "ML/numpy/Numpy.md",
+    "фнансы/Микро экономика/Фундаментальный анализ компании.md",
+    "фнансы/Микро экономика/Отчетность(МСФО)",
+    "фнансы/Микро экономика",
+    "фнансы/Микро экономика/Мультипликаторы/Enterprise Value to Earnings Before Interest.md",
+    "фнансы/Микро экономика/Мультипликаторы/Dividend Yield.md",
+    "фнансы/Микро экономика/Мультипликаторы",
+    "фнансы/Микро экономика/Мультипликаторы/Price-to-Book.md",
+    "фнансы/Микро экономика/Мультипликаторы/Price-to-Earnings.md",
+    "фнансы/Микро экономика/Мультипликаторы/P2E (Price-to-Earnings) Ratio.md",
+    "P",
+    "фнансы/Микро экономика/Cправедливая стоимость активов компании.md",
+    "фнансы",
+    "Коэффициент корреляции Пирсона.md",
+    "ML/Tensorflow/Простейший классификатор на Tensorflow.md",
+    "ML/Tensorflow/Сохранием модеелей в файл и загрузка модеели из файла.md",
+    "Математика/статистика/Линейная регрессия.md",
+    "ML/Tensorflow/линейная регрессия на python.md",
+    "Математика/статистика/Средняя абсолютная ошибка (MAE).md",
+    "**Среднеквадратическая ошибка (MSE)**.md",
+    "Pasted image 20240509173107.png",
+    "ML/pictures",
+    "Математика/resources",
+    "Без названия.canvas",
+    "Watermark.png",
+    "Математика/матматический анализ",
+    "ML/resources",
+    "0fc386af52cc285ae58ce7777cc641d9.svg",
     "Английский",
-    "Untitled.canvas",
-    "скалярноее проиизведени.md",
-    "test/test.md",
-    "test",
-    "Математика/статистика",
-    "Математика/линейная алгебра",
-    "Математика.md",
-    "Математика",
-    "ML/Tensorflow/Tensorflow is library for ML.md",
-    "ML/numpy",
-    "2024-05-03.md",
-    "Untitled.md",
-    "ML/Tensorflow",
-    "ML",
-    "ML"
+    "Untitled.canvas"
   ]
 }
