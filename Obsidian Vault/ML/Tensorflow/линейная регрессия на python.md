@@ -1,5 +1,5 @@
 
-```
+```python
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
@@ -33,8 +33,8 @@ print('Y`=', y_pred)
 print('Y=', 4 * x_new + 3)
 ```
 
-Выччисление [[Коэффициент детерминации ( R^2 )]]:
-```
+Вычисление [[Коэффициент детерминации ( R^2 )]]:
+```python
 from sklearn.metrics import r2_score
 
 # действительны данные

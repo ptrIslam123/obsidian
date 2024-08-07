@@ -1,7 +1,7 @@
 `Dense` - это класс в TensorFlow и Keras, который представляет полносвязный слой нейронной сети. Полносвязный слой, также известный как слой персептрона, каждый входной нейрон связан со всеми нейронами в следующем слое. Это позволяет нейронной сети изучать более сложные функциональные зависимости в данных.
 https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense
 
-```
+```python
 tf.keras.layers.Dense(
 	units, activation=None,
 	use_bias=True,
@@ -71,7 +71,7 @@ tf.keras.layers.Dense(
 
 ### Пример использования Dense
 
-```
+```python
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
@@ -102,7 +102,7 @@ model = Sequential([
 Параметр `input_shape` представляет собой кортеж, где каждый элемент кортежа указывает размерность одной из осей входных данных. Например, если у вас есть набор данных, где каждый образ представлен одномерным массивом из `N` элементов, то `input_shape` будет `(N,)`. Если у вас есть изображения размером `W` (ширина) на `H` (высота) с `C` каналами (например, RGB изображение), то `input_shape` будет `(W, H, C)`.
 
 #### Вот пример использования `input_shape` в `Dense` слое:
-```
+```python
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
