@@ -99,7 +99,7 @@ print(findInMountainArray(target, arr)  # Вывод: 2
 ```
 
 
-##### Median of Two Sorted Arrays)
+##### Median of Two Sorted Arrays
 Даны два отсортированных массива `nums1` и `nums2` одинаковой или разной длины. Необходимо найти медиану объединенного массива, состоящего из элементов `nums1` и `nums2`.
 ##### Определение медианы:
 
