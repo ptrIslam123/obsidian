@@ -9,7 +9,6 @@ enum memory_order
     memory_order_release,  
     memory_order_acq_rel,  
     memory_order_seq_cst  // default for all atomic operations 
-
 };
 ```
 
@@ -114,5 +113,6 @@ void thread_read_y_then_x() {
 Модификатор `seq_cst` всегда может быть использован вместо `relaxed` и `acquire/release`, еще и поэтому он является модификатором по умолчанию.
 
 # Синхронизация пары. Acquire/Release 
+
 **Флаг синхронизации памяти `acquire/release` является более тонким способом синхронизировать данные между парой потоков. Два ключевых слова: `memory_order_acquire` и `memory_order_release` работают только в паре над одним атомарным объектом**.
 
