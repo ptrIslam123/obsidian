@@ -52,6 +52,8 @@ RUN npm install                               # Node.js
 ```  
 **Оптимизация:** Объединяйте команды в один `RUN` через `&&`, чтобы уменьшить количество слоев.  
 
+Все, что делатеся с помощью команды `RUN ...` (или любой другой команды `RUN`) во время выполнения `docker build`, **полностью сохраняется в образе** и будет **доступно при запуске контейнера через `docker run`** . Каждая команда (включая `RUN`) создает **новый слой (layer)** в образе.
+
 ---
 
 ### 5. **`ENV`** – Переменные окружения  
@@ -241,24 +243,71 @@ docker run -v $(pwd)/nginx.conf:/etc/nginx/nginx.conf -p 80:80 nginx
 
 **Совет:** Для продакшена предпочитайте `volumes`, для разработки — `bind mounts`.  
 
-## Пример простого Dockerfile
+## Пример Dockerfile для развертывания dpdk
 
 ```Dockerfile
-# Используем Ubuntu 24.04
-FROM ubuntu:24.04
+# Базовый образ
+FROM ubuntu:22.04
 
-# Обновляем систему и ставим зависимости
-RUN apt-get update && apt-get install -y \
-build-essential \
-meson \
-ninja-build \
-wget \
-git \
-linux-headers-generic \
-libnuma-dev \
-pkg-config \
-python3-pip \
-kmod
+# Установка переменных среды для автоматического ответа при apt
+ENV DEBIAN_FRONTEND=noninteractive
 
-CMD ["/bin/bash"]
+# Обновление системы и установка базовых инструментов
+RUN apt-get update && \
+apt-get install -y --no-install-recommends \
+build-essential gcc g++ make cmake git wget curl \
+python3 python3-pip pkg-config libnuma-dev libssl-dev \
+libpcap-dev libsctp-dev vim nano iproute2 net-tools \
+tcpdump nmap wireshark tshark hping3 dnsutils netcat-openbsd \
+socat strace lsof iperf3 ethtool bridge-utils vlan iptables \ 
+whois gdb valgrind clang bear openssh-client libelf-dev \
+meson python3-pyelftools linux-headers-generic \
+&& rm -rf /var/lib/apt/lists/*
+
+# Очистка кэша (экономим место)
+RUN apt-get clean && \
+rm -rf /tmp/* /var/tmp/*
+
+# Установка Python-инструментов для анализа и тестирования
+RUN pip3 install --no-cache-dir \
+scapy paramiko pwntools requests beautifulsoup4 cryptography
+
+# Настройка директории для DPDK
+WORKDIR /opt/dpdk
+
+# Версия DPDK
+ARG DPDK_VERSION=25.07
+
+# Скачивание исходников DPDK
+RUN if [ ! -d "dpdk" ]; then \
+git clone --recurse-submodules https://github.com/DPDK/dpdk.git ; \
+fi
+
+
+# Сборка DPDK через Meson
+RUN cd dpdk && mkdir build && cd build && \
+meson setup .. \
+--prefix=/usr \
+--libdir=lib/x86_64-linux-gnu \
+--buildtype=release \
+--default-library=static \
+-Dexamples=all && \
+ninja && ninja install && \
+ldconfig
+
+# Добавляем переменные окружения DPDK
+ENV RTE_SDK=/opt/dpdk
+ENV RTE_TARGET=build
+```
+
+```bash
+# пример команды для сборки орбраза
+docker build -t dpdk:1.0 .
+
+# Пример команды тестового запуска образа в интерактивном режиме 
+docker run -it dpdk:1.0 
+
+# Пример команды тестового запуска образа в интерактивном режиме \
+# и с указанием общей разделяемой директории
+docker run -it -v /home/islam_kardanov/c/tmp/dpdk-test/src:/home/src dpdk:1.0
 ```
